@@ -89,6 +89,21 @@ Follow these steps to run the GMAN model:
 
 Follow these steps to run the GraphWaveNet model:
 
+**Train and Test GraphWaveNet**
 
+To train and evaluate the GraphWaveNet model, follow the steps below:
 
----
+1. **Run the training script**:
+   ```bash
+   python pred_GraphWaveNet.py
+   ```
+   - This script handles both training and testing phases.
+
+2. **Input Requirements**:
+   - The training and testing data should be preprocessed and saved in an HDF5 format (`FLOWPATH` variable).
+
+3. **Output**:
+   - The model logs, parameters, and checkpoints are saved in the `save/` directory.
+   - A `.pt` file will store the model parameters (e.g., `GraphWaveNet.pt`).
+   - Metrics for both training and testing phases are saved in a log file (`GraphWaveNet_log.txt`).
+
