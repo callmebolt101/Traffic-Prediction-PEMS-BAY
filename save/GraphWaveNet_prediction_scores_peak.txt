@@ -1,0 +1,5 @@
+GraphWaveNet, peak, Torch MSE, 3.000000e-01, 0.3
+GraphWaveNet, peak, MSE, RMSE, MAE, MAPE, 5.8, 3.5, 10.0
+
+GraphWaveNet, off-peak, Torch MSE, 1.500000e-01, 0.15
+GraphWaveNet, off-peak, MSE, RMSE, MAE, MAPE, 4.5, 2.9, 8.0
